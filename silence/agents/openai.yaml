@@ -1,0 +1,4 @@
+interface:
+  display_name: "Silence"
+  short_description: "Only final verified results"
+  default_prompt: "Use $silence to keep interim output minimal and return only verified final results."
