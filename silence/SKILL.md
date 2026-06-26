@@ -1,11 +1,19 @@
 ---
 name: silence
-description: Minimize Codex interim narration and return only final verified results. Use when the user asks for silence, quiet mode, terse mode, no progress updates, final-only responses, or "verified results only" while Codex works.
+description: Minimize Codex interim narration and return only final verified results. Use when the user asks for silence, quiet mode, terse mode, no progress updates, final-only responses, "verified results only", or silence until a goal/task is achieved.
 ---
 
 # Silence
 
 Keep the transcript quiet while preserving correctness, safety, and required interaction.
+
+## Activation And Persistence
+
+- Once invoked, keep this skill active for the current task/goal and any intermediate continuation or resumed turn spawned by that work.
+- Suppress all optional interim messages for the entire active task/goal by default.
+- Do not stop applying silence because an intermediate result was produced, a commit was pushed, a check completed, context changed, or work resumes.
+- Keep silence active until the user explicitly cancels it, changes the output mode, or the requested task/goal is fully achieved and the concise final response has been delivered.
+- If a later user message adds work without canceling silence, continue applying this skill to the added work.
 
 ## Output Rules
 
