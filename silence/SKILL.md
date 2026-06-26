@@ -23,6 +23,13 @@ Keep the transcript quiet while preserving correctness, safety, and required int
 - If verification cannot run, state exactly what prevented it and do not imply the change is proven.
 - Mention changed files only when useful for the user to inspect the result.
 
+## Long-Running Commands And Logs
+
+- Avoid repeatedly polling or replaying verbose output into the main thread.
+- Prefer terse command modes when they still preserve the evidence needed for verification.
+- For commands that may produce large logs, write full output to a file when appropriate, poll only process status or a small tail, and read the full log only when needed to diagnose failure or verify the final result.
+- Do not hide failures: capture the relevant error lines, exit status, and verification evidence in the final response.
+
 ## Research Or Diagnostic Work
 
 - Verify dynamic or current facts against authoritative sources before answering.
