@@ -17,7 +17,7 @@ Restart Codex after installation so the new skill is discovered.
 Invoke it explicitly:
 
 ```text
-Use $silence. Fix the failing test and report only the verified final result.
+Use $silence. Fix the failing test.
 ```
 
 Codex can also select it when you ask for silence, quiet mode, no progress updates, final-only responses, or verified results only.
