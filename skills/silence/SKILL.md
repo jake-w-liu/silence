@@ -1,6 +1,6 @@
 ---
 name: silence
-description: Minimize Codex interim narration and return only final verified results. Use when the user asks for silence, quiet mode, terse mode, no progress updates, final-only responses, "verified results only", or silence until a goal/task is achieved.
+description: Minimize interim narration and return only final verified results. Use when the user asks for silence, quiet mode, terse mode, no progress updates, final-only responses, "verified results only", or silence until a goal/task is achieved.
 ---
 
 # Silence
