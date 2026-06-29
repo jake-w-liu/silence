@@ -12,6 +12,15 @@ $skill-installer https://github.com/jake-w-liu/silence/tree/main/silence
 
 Restart Codex after installation so the new skill is discovered.
 
+## Install (Claude Code)
+
+In Claude Code, run:
+
+```text
+claude plugin marketplace add "/Users/jake/plugins/silence"
+claude plugin install silence@silence
+```
+
 ## Use
 
 Invoke it explicitly:

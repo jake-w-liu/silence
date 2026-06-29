@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "silence",
+  "description": "Suppress interim narration and return only verified final results.",
+  "owner": { "name": "jake-w-liu" },
+  "plugins": [
+    { "name": "silence", "description": "Suppress interim narration and return only verified final results.", "source": "./", "category": "productivity" }
+  ]
+}

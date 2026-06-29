@@ -1,0 +1,9 @@
+{
+  "name": "silence",
+  "version": "1.0.0",
+  "description": "Suppress interim narration and return only verified final results.",
+  "author": { "name": "jake-w-liu" },
+  "homepage": "https://github.com/jake-w-liu/silence",
+  "repository": "https://github.com/jake-w-liu/silence",
+  "keywords": ["silence", "quiet", "terse", "verification", "final-only"]
+}
